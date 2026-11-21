@@ -5,6 +5,51 @@ Newest first.
 
 ---
 
+## 2026-11-24 (IST) — Day 3: public dashboard v1 (pulled forward; built 2026-11-22)
+
+**Shipped**
+
+- **Public dashboard** (`dashboard/`) — a single-page, fully static Next.js
+  site in the premium dark style the project uses everywhere: Space
+  Grotesk headings, Inter body, and a custom geometric logo (a leaf whose
+  vein is a rising chart line). One page, five sections:
+  - the **simulated portfolio** — virtual cash, positions and total value
+    straight from the agent's state file, with the "Simulated portfolio.
+    Not financial advice." note up top, not buried;
+  - the **latest decision pass** — all 13 decisions from pass #1, each
+    with the agent's full written reason (13 HOLDs, and why);
+  - the **NAV-live watchlist** — the 13 names with NAV reference prices,
+    last-update timestamps and freshness badges; because every price is a
+    held weekend close right now, a banner says so in plain words:
+    "Price held from Friday close";
+  - the **latest brief**, rendered in full;
+  - the **onchain log** card — AgentLog is not deployed yet, and the page
+    says that too, with the 13 queued decisions counted and a Basescan
+    (Sepolia) link ready for the contract address.
+- **Baked-data architecture** — `dashboard/scripts/prepare_data.py` pulls
+  the portfolio state, the decision history, the live watchlist (via the
+  hardened `api/` client) and the newest brief into one JSON at build
+  time; the page renders only from that file. If the API is unreachable
+  when someone views the page, nothing breaks — and if it is unreachable
+  at *build* time, the prep falls back to the portfolio's seeded reference
+  prices and labels the source honestly.
+
+**Verified**
+
+- `npm install` + `npm run build` pass clean; the static export was
+  checked section by section (portfolio totals, all 13 decisions, all 13
+  watchlist names, the brief, the disclaimers).
+
+**Not yet live**
+
+- The `vercel` binary on the build machine turned out to be Vercel's
+  remote-MCP OAuth wrapper rather than the deployment CLI, and it is not
+  connected — so no login was attempted and the site is built but not
+  deployed. The exact production deploy command is recorded in
+  `dashboard/DEPLOYMENT.md`.
+
+---
+
 ## 2026-11-23 (IST) — Day 2: strategy engine + paper portfolio
 
 **Shipped**

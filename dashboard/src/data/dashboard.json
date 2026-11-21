@@ -1,0 +1,277 @@
+{
+  "generated_at": "2026-11-21T18:37:43.287626+00:00",
+  "portfolio": {
+    "virtual_capital_usd": 100000.0,
+    "cash": 100000.0,
+    "positions": [],
+    "positions_value": 0.0,
+    "total_value": 100000.0,
+    "runs": 1,
+    "updated_at": "2026-11-21T18:33:38.863969+00:00"
+  },
+  "decisions": {
+    "run": 1,
+    "count": 13,
+    "items": [
+      {
+        "run": 1,
+        "ticker": "AAPLc",
+        "side": "HOLD",
+        "nav_price": 345.29769685,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for AAPLc is 19.4h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "AMZNc",
+        "side": "HOLD",
+        "nav_price": 250.879,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for AMZNc is 18.2h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "ANTc",
+        "side": "HOLD",
+        "nav_price": 87.595,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for ANTc is 17.6h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "CRCLc",
+        "side": "HOLD",
+        "nav_price": 48.795,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for CRCLc is 18.4h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "GOOGLc",
+        "side": "HOLD",
+        "nav_price": 269.71567647,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for GOOGLc is 20.9h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "INTCc",
+        "side": "HOLD",
+        "nav_price": 52.915,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for INTCc is 18.7h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "METAc",
+        "side": "HOLD",
+        "nav_price": 567.17792022,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for METAc is 21.3h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "MSFTc",
+        "side": "HOLD",
+        "nav_price": 489.199,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for MSFTc is 18.4h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "MSTRc",
+        "side": "HOLD",
+        "nav_price": 79.37,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for MSTRc is 18.4h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "NVDAc",
+        "side": "HOLD",
+        "nav_price": 129.82480034,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for NVDAc is 18.8h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "SNDKc",
+        "side": "HOLD",
+        "nav_price": 649.44,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for SNDKc is 18.9h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "SPCXc",
+        "side": "HOLD",
+        "nav_price": 129.34,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for SPCXc is 20.7h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      },
+      {
+        "run": 1,
+        "ticker": "TSLAc",
+        "side": "HOLD",
+        "nav_price": 350.45,
+        "usd_amount": 0.0,
+        "reason": "NAV feed for TSLAc is 19.8h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price."
+      }
+    ]
+  },
+  "watchlist": {
+    "source": "live",
+    "fetched_at": "2026-11-21T18:37:40.813828+00:00",
+    "catalog_records": 415,
+    "count": 13,
+    "stale_count": 13,
+    "all_stale": true,
+    "items": [
+      {
+        "symbol": "AAPLc",
+        "name": "Apple Inc.",
+        "nav": 345.29769685,
+        "nav_updated_at": "2026-11-20T23:12:02Z",
+        "age_hours": 19.4,
+        "stale": true,
+        "multiplier": 1.0005003893019802,
+        "contract_address": "0xb200000000000000000000C2e324d24d7eEcd1fb"
+      },
+      {
+        "symbol": "AMZNc",
+        "name": "Amazon.com Inc.",
+        "nav": 250.879,
+        "nav_updated_at": "2026-11-21T00:23:57Z",
+        "age_hours": 18.2,
+        "stale": true,
+        "multiplier": 1,
+        "contract_address": "0xb200000000000000000000d9192b6B456483C2E8"
+      },
+      {
+        "symbol": "ANTc",
+        "name": "Anthropic, PBC",
+        "nav": 87.595,
+        "nav_updated_at": "2026-11-21T00:56:41Z",
+        "age_hours": 17.7,
+        "stale": true,
+        "multiplier": 1,
+        "contract_address": "0xb20000000000000000000016e38FD364d271Ba28"
+      },
+      {
+        "symbol": "CRCLc",
+        "name": "Circle Internet Group Inc.",
+        "nav": 48.795,
+        "nav_updated_at": "2026-11-21T00:12:04Z",
+        "age_hours": 18.4,
+        "stale": true,
+        "multiplier": 1,
+        "contract_address": "0xB20000000000000000000019f6E7C675b73C2e4D"
+      },
+      {
+        "symbol": "GOOGLc",
+        "name": "Alphabet Inc.",
+        "nav": 269.71567647,
+        "nav_updated_at": "2026-11-20T21:42:19Z",
+        "age_hours": 20.9,
+        "stale": true,
+        "multiplier": 1.0003771186767842,
+        "contract_address": "0xb2000000000000000000002D0BA3164cc74f58B7"
+      },
+      {
+        "symbol": "INTCc",
+        "name": "Intel Corporation",
+        "nav": 52.915,
+        "nav_updated_at": "2026-11-20T23:50:55Z",
+        "age_hours": 18.8,
+        "stale": true,
+        "multiplier": 1,
+        "contract_address": "0xB2000000000000000000004AFF16039bA04bdFBc"
+      },
+      {
+        "symbol": "METAc",
+        "name": "Meta Platforms Inc.",
+        "nav": 567.17792022,
+        "nav_updated_at": "2026-11-20T21:15:17Z",
+        "age_hours": 21.4,
+        "stale": true,
+        "multiplier": 1.0003137922895982,
+        "contract_address": "0xb2000000000000000000008bC8786B856E61707C"
+      },
+      {
+        "symbol": "MSFTc",
+        "name": "Microsoft Corporation",
+        "nav": 489.199,
+        "nav_updated_at": "2026-11-21T00:11:11Z",
+        "age_hours": 18.4,
+        "stale": true,
+        "multiplier": 1,
+        "contract_address": "0xB200000000000000000000Ab99cFa739E253872B"
+      },
+      {
+        "symbol": "MSTRc",
+        "name": "Strategy Inc.",
+        "nav": 79.37,
+        "nav_updated_at": "2026-11-21T00:08:11Z",
+        "age_hours": 18.5,
+        "stale": true,
+        "multiplier": 1,
+        "contract_address": "0xb2000000000000000000004884b426556b92883d"
+      },
+      {
+        "symbol": "NVDAc",
+        "name": "NVIDIA Corporation",
+        "nav": 129.82480034,
+        "nav_updated_at": "2026-11-20T23:42:40Z",
+        "age_hours": 18.9,
+        "stale": true,
+        "multiplier": 1.0005379395763694,
+        "contract_address": "0xb20000000000000000000078ee7ce2fE4908108C"
+      },
+      {
+        "symbol": "SNDKc",
+        "name": "Sandisk Corporation",
+        "nav": 649.44,
+        "nav_updated_at": "2026-11-20T23:38:55Z",
+        "age_hours": 19.0,
+        "stale": true,
+        "multiplier": 8,
+        "contract_address": "0xb200000000000000000000397293Cb8cda9a10c5"
+      },
+      {
+        "symbol": "SPCXc",
+        "name": "Space Exploration Technologies Corp.",
+        "nav": 129.34,
+        "nav_updated_at": "2026-11-20T21:52:02Z",
+        "age_hours": 20.8,
+        "stale": true,
+        "multiplier": 1,
+        "contract_address": "0xb2000000000000000000007b9fcbd005511aCBd5"
+      },
+      {
+        "symbol": "TSLAc",
+        "name": "Tesla Inc.",
+        "nav": 350.45,
+        "nav_updated_at": "2026-11-20T22:43:49Z",
+        "age_hours": 19.9,
+        "stale": true,
+        "multiplier": 1,
+        "contract_address": "0xb2000000000000000000001e800a7f5189430cD0"
+      }
+    ]
+  },
+  "brief": {
+    "file": "2026-11-22.md",
+    "markdown": "# StockSage Brief \u2014 2026-11-22\n\nA plain-language look at Coinbase's tokenized stocks on Base. Research and education only \u2014 not financial advice. Prices below are NAV *reference* values from the Tokenized Stocks API, not live buy/sell quotes.\n\n> **Stale-price note:** the NAV feeds behind these tokens run 24/5. Right now 13 of 13 prices are older than 6 hours (the freshest is 17.6 hours old), which is normal outside market hours \u2014 on weekends these are simply the last closing reference values, held until the feeds resume. Treat them as Friday's scoreboard, not a live market.\n\nThe full catalog lists 415 token records; 13 currently publish a NAV reference price. Those are the names this brief covers.\n\n## The NAV-live names\n\n| Token | What it tracks | NAV reference | Price last updated |\n|---|---|---:|---|\n| AAPLc | Apple Inc. | $345.29769685 | 2026-11-20T23:12:02Z (19.3 hours old) |\n| AMZNc | Amazon.com Inc. | $250.879 | 2026-11-21T00:23:57Z (18.1 hours old) |\n| ANTc | Anthropic, PBC | $87.595 | 2026-11-21T00:56:41Z (17.6 hours old) |\n| CRCLc | Circle Internet Group Inc. | $48.795 | 2026-11-21T00:12:04Z (18.3 hours old) |\n| GOOGLc | Alphabet Inc. | $269.71567647 | 2026-11-20T21:42:19Z (20.8 hours old) |\n| INTCc | Intel Corporation | $52.915 | 2026-11-20T23:50:55Z (18.7 hours old) |\n| METAc | Meta Platforms Inc. | $567.17792022 | 2026-11-20T21:15:17Z (21.3 hours old) |\n| MSFTc | Microsoft Corporation | $489.199 | 2026-11-21T00:11:11Z (18.3 hours old) |\n| MSTRc | Strategy Inc. | $79.37 | 2026-11-21T00:08:11Z (18.4 hours old) |\n| NVDAc | NVIDIA Corporation | $129.82480034 | 2026-11-20T23:42:40Z (18.8 hours old) |\n| SNDKc | Sandisk Corporation | $649.44 | 2026-11-20T23:38:55Z (18.9 hours old) |\n| SPCXc | Space Exploration Technologies Corp. | $129.34 | 2026-11-20T21:52:02Z (20.6 hours old) |\n| TSLAc | Tesla Inc. | $350.45 | 2026-11-20T22:43:49Z (19.8 hours old) |\n\n## In plain language\n\n- **AAPLc \u2014 $345.29769685** (19.3 hours old). Tracks Apple \u2014 the iPhone maker's stock, in token form. Its multiplier is 1.0005, so token units and share units are not exactly 1:1.\n- **AMZNc \u2014 $250.879** (18.1 hours old). Tracks Amazon \u2014 online shopping plus the AWS cloud business.\n- **ANTc \u2014 $87.595** (17.6 hours old). Tracks Anthropic \u2014 the AI company behind Claude; a rare pre-IPO name in this catalog.\n- **CRCLc \u2014 $48.795** (18.3 hours old). Tracks Circle \u2014 the company behind the USDC stablecoin.\n- **GOOGLc \u2014 $269.71567647** (20.8 hours old). Tracks Alphabet \u2014 Google's parent: search, YouTube and cloud. Its multiplier is 1.0004, so token units and share units are not exactly 1:1.\n- **INTCc \u2014 $52.915** (18.7 hours old). Tracks Intel \u2014 the long-running chip maker.\n- **METAc \u2014 $567.17792022** (21.3 hours old). Tracks Meta \u2014 Facebook, Instagram and WhatsApp's parent company. Its multiplier is 1.0003, so token units and share units are not exactly 1:1.\n- **MSFTc \u2014 $489.199** (18.3 hours old). Tracks Microsoft \u2014 Windows, Office, Azure cloud and a big AI bet.\n- **MSTRc \u2014 $79.37** (18.4 hours old). Tracks MicroStrategy \u2014 a software company famous for holding a huge bitcoin treasury.\n- **NVDAc \u2014 $129.82480034** (18.8 hours old). Tracks NVIDIA \u2014 the chip company at the center of the AI boom. Its multiplier is 1.0005, so token units and share units are not exactly 1:1.\n- **SNDKc \u2014 $649.44** (18.9 hours old). Tracks SanDisk \u2014 flash-memory storage. Note its multiplier is 8: one token unit represents 8 share-units after a corporate action, which is why its NAV number looks large.\n- **SPCXc \u2014 $129.34** (20.6 hours old). Tracks SpaceX \u2014 rockets and Starlink, another pre-IPO name in token form.\n- **TSLAc \u2014 $350.45** (19.8 hours old). Tracks Tesla \u2014 electric cars, energy storage and robots.\n\n## What to watch next\n\nWhen the feeds resume, this brief's saved snapshot lets the next edition report real moves against today's reference values instead of guesses.\n\n---\n*Generated by StockSage from the public Coinbase Tokenized Stocks API. Simulated, educational content only.*\n"
+  },
+  "onchain": {
+    "deployed": false,
+    "address": null,
+    "chain": "Base Sepolia",
+    "explorer_url": "https://sepolia.basescan.org",
+    "queued_count": 13
+  },
+  "links": {
+    "github": "https://github.com/rjrajput-web3/stocksage",
+    "api": "https://api.coinbase.com/v1/tokenized-stocks"
+  }
+}
