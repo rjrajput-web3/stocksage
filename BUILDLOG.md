@@ -158,3 +158,7 @@ explorer links once AgentLog is live, latest brief.
 
 **Next (Nov 23):** strategy engine with published rules + paper portfolio
 state; first simulated decisions; faucet unblock → AgentLog live on Sepolia.
+
+## 2026-11-22 (IST) — AgentLog deployed on Base Sepolia
+- Deployer funded by Rohit (0.005 ETH testnet). AgentLog deployed: 0x7cd321F3F28e3bBb3aF4C66c19d5AabF5a70424a (tx 0x179659477b69f5dbe8317b31240e9775bd781faed0b7dea1e339f3d9544793f8).
+- First onchain anchoring done: 13 agent decisions written to AgentLog, count() verified = 13 on https://sepolia.basescan.org/address/0x7cd321F3F28e3bBb3aF4C66c19d5AabF5a70424a

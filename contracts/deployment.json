@@ -1,0 +1,9 @@
+{
+  "contract": "AgentLog",
+  "chain": "base-sepolia",
+  "chain_id": 84532,
+  "address": "0x7cd321F3F28e3bBb3aF4C66c19d5AabF5a70424a",
+  "tx_hash": "0x179659477b69f5dbe8317b31240e9775bd781faed0b7dea1e339f3d9544793f8",
+  "deployer": "0x1B18f191ac791a7d65ed35f8E25b871c72f81A5e",
+  "verified_count": 0
+}
