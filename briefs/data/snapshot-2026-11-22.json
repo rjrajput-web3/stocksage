@@ -1,0 +1,84 @@
+{
+  "fetched_at": "2026-11-22T00:00:42.858902+05:30",
+  "records": 415,
+  "nav_live": {
+    "AAPLc": {
+      "nav_price": 345.29769685,
+      "nav_price_updated_at": "2026-11-20T23:12:02Z",
+      "multiplier": 1.0005003893019802,
+      "total_supply": 6103.12108319
+    },
+    "AMZNc": {
+      "nav_price": 250.879,
+      "nav_price_updated_at": "2026-11-21T00:23:57Z",
+      "multiplier": 1,
+      "total_supply": 10198.50295316
+    },
+    "ANTc": {
+      "nav_price": 87.595,
+      "nav_price_updated_at": "2026-11-21T00:56:41Z",
+      "multiplier": 1,
+      "total_supply": 14935.96406155
+    },
+    "CRCLc": {
+      "nav_price": 48.795,
+      "nav_price_updated_at": "2026-11-21T00:12:04Z",
+      "multiplier": 1,
+      "total_supply": 3215.89041742
+    },
+    "GOOGLc": {
+      "nav_price": 269.71567647,
+      "nav_price_updated_at": "2026-11-20T21:42:19Z",
+      "multiplier": 1.0003771186767842,
+      "total_supply": 37248.30223607
+    },
+    "INTCc": {
+      "nav_price": 52.915,
+      "nav_price_updated_at": "2026-11-20T23:50:55Z",
+      "multiplier": 1,
+      "total_supply": 2990.3600078
+    },
+    "METAc": {
+      "nav_price": 567.17792022,
+      "nav_price_updated_at": "2026-11-20T21:15:17Z",
+      "multiplier": 1.0003137922895982,
+      "total_supply": 9037.50744454
+    },
+    "MSFTc": {
+      "nav_price": 489.199,
+      "nav_price_updated_at": "2026-11-21T00:11:11Z",
+      "multiplier": 1,
+      "total_supply": 2702.70741505
+    },
+    "MSTRc": {
+      "nav_price": 79.37,
+      "nav_price_updated_at": "2026-11-21T00:08:11Z",
+      "multiplier": 1,
+      "total_supply": 23080.97804302
+    },
+    "NVDAc": {
+      "nav_price": 129.82480034,
+      "nav_price_updated_at": "2026-11-20T23:42:40Z",
+      "multiplier": 1.0005379395763694,
+      "total_supply": 62019.73777574
+    },
+    "SNDKc": {
+      "nav_price": 649.44,
+      "nav_price_updated_at": "2026-11-20T23:38:55Z",
+      "multiplier": 8,
+      "total_supply": 3330.03853669
+    },
+    "SPCXc": {
+      "nav_price": 129.34,
+      "nav_price_updated_at": "2026-11-20T21:52:02Z",
+      "multiplier": 1,
+      "total_supply": 30116.60889535
+    },
+    "TSLAc": {
+      "nav_price": 350.45,
+      "nav_price_updated_at": "2026-11-20T22:43:49Z",
+      "multiplier": 1,
+      "total_supply": 6527.32389899
+    }
+  }
+}

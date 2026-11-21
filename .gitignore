@@ -1,0 +1,18 @@
+# secrets — never commit keys or env files
+*.env
+.deployer.env
+
+# python
+__pycache__/
+*.pyc
+
+# foundry
+contracts/cache/
+contracts/out/
+contracts/broadcast/
+
+# os
+.DS_Store
+
+# foundry deps (reinstall with: cd contracts && forge install foundry-rs/forge-std)
+contracts/lib/
