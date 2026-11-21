@@ -1,0 +1,132 @@
+[
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "AAPLc",
+    "side": "HOLD",
+    "nav_price": 345.29769685,
+    "nav_price_scaled_1e8": 34529769685,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for AAPLc is 19.4h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0x4e1cb53b4756626a87532784c22b40c11632a6ea585987d3a3bd9605958bf6f2"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "AMZNc",
+    "side": "HOLD",
+    "nav_price": 250.879,
+    "nav_price_scaled_1e8": 25087900000,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for AMZNc is 18.2h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0xf70f5dcb0026064468195d4dd75964089b17fcb43180ae6b295b374829dee5ce"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "ANTc",
+    "side": "HOLD",
+    "nav_price": 87.595,
+    "nav_price_scaled_1e8": 8759500000,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for ANTc is 17.6h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0x45cbc49822c278b63858cfc45501e719ec0a0588a095825eb66577388f6698f0"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "CRCLc",
+    "side": "HOLD",
+    "nav_price": 48.795,
+    "nav_price_scaled_1e8": 4879500000,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for CRCLc is 18.4h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0x78345f685be2e95089fd436b08bf759ad65951aa900ce4d074b8e1196192a88d"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "GOOGLc",
+    "side": "HOLD",
+    "nav_price": 269.71567647,
+    "nav_price_scaled_1e8": 26971567647,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for GOOGLc is 20.9h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0x35570741f7126486fdb014121a62054ff98acfc29ae347046ef44e4143fe6150"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "INTCc",
+    "side": "HOLD",
+    "nav_price": 52.915,
+    "nav_price_scaled_1e8": 5291500000,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for INTCc is 18.7h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0x95816456fc4075b1c73bf2c19ec3665c6e8bd8e28a4c02c6a931893f0cfddb61"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "METAc",
+    "side": "HOLD",
+    "nav_price": 567.17792022,
+    "nav_price_scaled_1e8": 56717792022,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for METAc is 21.3h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0x0d3057cc2226e5515c3690c68a23dd56a584aaddc94108953c763d7234025377"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "MSFTc",
+    "side": "HOLD",
+    "nav_price": 489.199,
+    "nav_price_scaled_1e8": 48919900000,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for MSFTc is 18.4h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0xb53e8c77f285e5b9ef390dbb4885dbf43dc5261708576ced63f1e07215da6e4d"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "MSTRc",
+    "side": "HOLD",
+    "nav_price": 79.37,
+    "nav_price_scaled_1e8": 7937000000,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for MSTRc is 18.4h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0x81c1177faaf0ceab1655d6efd5baee9a2dab766225ffb6c2885ce7274ac9174a"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "NVDAc",
+    "side": "HOLD",
+    "nav_price": 129.82480034,
+    "nav_price_scaled_1e8": 12982480034,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for NVDAc is 18.8h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0xbe23105d6ed35a098487819efbfb4a30ded71b882e676847ae928c111b9bd501"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "SNDKc",
+    "side": "HOLD",
+    "nav_price": 649.44,
+    "nav_price_scaled_1e8": 64944000000,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for SNDKc is 18.9h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0xfc9b53db9382c31be72ceba3f553c7b61238fa3fb1733cfd71fe09c979168500"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "SPCXc",
+    "side": "HOLD",
+    "nav_price": 129.34,
+    "nav_price_scaled_1e8": 12934000000,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for SPCXc is 20.7h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0x92a438897a43b4364b0970e16afb30c950ccb27cdfb876b3481d1c24e99d886d"
+  },
+  {
+    "queued_at": "2026-11-21T18:33:39.872939+00:00",
+    "ticker": "TSLAc",
+    "side": "HOLD",
+    "nav_price": 350.45,
+    "nav_price_scaled_1e8": 35045000000,
+    "usd_amount": 0.0,
+    "reason": "NAV feed for TSLAc is 19.8h old (stale; feeds hold the last close outside market hours). Published rules require a fresh NAV before any simulated trade. Move vs trailing reference is +0.00% in the held price.",
+    "reason_hash": "0x476e2806323abcbaefc0ebc925a3723b602cca6be44f5afec121c7df3c681cbf"
+  }
+]

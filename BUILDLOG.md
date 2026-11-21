@@ -5,6 +5,57 @@ Newest first.
 
 ---
 
+## 2026-11-23 (IST) — Day 2: strategy engine + paper portfolio
+
+**Shipped**
+
+- **Published rule set** (`agent/RULES.md`) — the agent's rules are written
+  down in plain language before the code that follows them: $100,000
+  virtual capital; only NAV-live names; a freshness gate (a NAV more than
+  6 hours old is never acted on); a trailing reference per name (seeded
+  from yesterday's snapshot, then rolled forward each run); a **momentum
+  band** (simulated buy of one $5,000 step when NAV is up ≥ 1.5% vs the
+  reference); a **mean-reversion band** (same step when NAV is down
+  ≥ 2.0%); caps of $10,000 per name and $60,000 total exposure; one
+  decision per name per run, alphabetical, so results are reproducible.
+  This first version deliberately has no exit rule — that is stated in
+  the rules, not hidden.
+- **Strategy engine** (`agent/engine.py`) — a pure function of (prices,
+  references, portfolio): same inputs, same decisions, verified by running
+  the pass twice and diffing against the recorded history.
+- **Paper portfolio** (`agent/portfolio.py`, state in
+  `agent/state/portfolio.json`) — virtual cash, positions in token units
+  with share-equivalents via each token's multiplier, weighted average
+  NAV, and a full decision history with written reasons.
+- **Runner** (`python3 -m agent.run`) — fetch → decide → apply → print a
+  plain-language summary → anchor onchain if possible, else queue.
+
+**First real run (today)**
+
+- 13 NAV-live names, **13 HOLDs, 0 simulated buys** — the honest outcome,
+  twice over: every NAV is Friday's close held over the weekend (17.6–21.3
+  hours old, so the freshness gate blocks action), and the held prices are
+  unchanged versus yesterday's snapshot (0.00% moves, inside both bands).
+  Each hold is recorded with its reason; "did nothing, and here is why"
+  is part of the public record by design.
+- Portfolio after pass #1: $100,000.00 virtual cash, no positions,
+  references rolled forward for all 13 names.
+
+**Onchain status**
+
+- AgentLog is still **not deployed**: the throwaway deployer wallet's Base
+  Sepolia balance is 0 (checked onchain today). The runner now automates
+  the whole path — the moment the wallet is funded it deploys via
+  `contracts/deploy.sh` and starts writing decisions; until then today's
+  13 decisions sit in `agent/state/pending_onchain.json` with their
+  reason hashes, queued for logging. (One runner bug found and fixed on
+  the way: the public RPC rejects requests without a User-Agent header.)
+
+**Next (Nov 24):** dashboard v1 — portfolio curve, decision list with
+explorer links once AgentLog is live, latest brief.
+
+---
+
 ## 2026-11-22 (IST) — Day 1: repo, data layer, decision-log contract, first brief
 
 **Shipped**
